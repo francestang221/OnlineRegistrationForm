@@ -72,7 +72,7 @@
 
   <div class = "row">
     <div class = "column"><label for ="state">State</label></div>
-    <div class = "double-column"><select class="select" id="state">
+    <div class = "double-column"><select class="select" id="state" name="state">
       <option value="">Choose State</option>
     	<option value="AL">Alabama</option>
     	<option value="AK">Alaska</option>
@@ -149,31 +149,32 @@
       <p>Select the newsletters you would like to receive</p>
 
 
-        <input type="checkbox" name="newsletters" value="HTML News">
-        HTML News<br>
+        <input type="checkbox" name="newsletters" id="htnews" value="HTML News">
+        <label for="htnews">HTML News</label>
         <br>
-        <input type="checkbox" name="newsletters" value="CSS News">
-        CSS News<br>
         <br>
-        <input type="checkbox" name="newsletters" value="Javascript News">
-        Javascript News
+        <input type="checkbox" name="newsletters" id="cnews" value="CSS News">
+        <label for="cnews">CSS News</label>
         <br>
-
+        <br>
+        <input type="checkbox" name="newsletters" id="jsnews" value="Javascript News">
+        <label for="jsnews">Javascript News</label>
+        <br>
         <br>
         Newsletter format<br>
         <br>
-        <input type="radio" name="format" value="HTML">HTML<br>
+        <input type="radio" name="format" id="hform" value="HTML">
+        <label for="jsnews">HTML</label>
         <br>
-        <input type="radio" name="format" value="Plain text">
-        Plain text<br>
+        <br>
+        <input type="radio" name="format" id="pform" value="Plain text">
+        <label for="jsnews">Plain text</label>
+        <br>
+        <br>
 
+    <label for="mtopic">Other topics you'd like to hear about</label>
 
-
-    <br>
-
-    <p>Other topics you'd like to hear about</p><br>
-
-      <textarea rows="5" cols="50" id ="textarea" name ="textarea">
+      <textarea rows="5" cols="50" id ="mtopic" name ="textarea">
     </textarea>
 
       <br>
