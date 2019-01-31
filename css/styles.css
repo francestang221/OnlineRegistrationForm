@@ -40,6 +40,13 @@ main {
   text-align: center;
   margin-top:30px;
   margin-bottom: 35px;
+  background-color: honeydew;
+  border: dotted turquoise;
+}
+
+.intro p {
+  color: gray;
+  font-size: 18px;
 }
 
 h2,legend {
@@ -49,14 +56,6 @@ h2,legend {
   font-family: 'Merriweather', serif;
   padding-top: 20px;
   margin-top: 20px;
-}
-
-
-
-
-.intro p {
-  color: gray;
-  font-size: 18px;
 }
 
 .bold-hr {
@@ -147,8 +146,6 @@ input:focus {
   background: MintCream;
 }
 
-
-
 .button {
   padding:22px;
   width: 100%;
@@ -192,6 +189,14 @@ footer {
 main {
   width:auto;
   margin:0 180px;
+}
+
+.intro {
+  text-align: center;
+  margin-top:30px;
+  margin-bottom: 35px;
+  background-color: lavenderblush;
+  border: dashed hotpink;
 }
 
 .row {
